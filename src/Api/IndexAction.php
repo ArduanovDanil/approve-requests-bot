@@ -17,6 +17,7 @@ final class IndexAction
         return $responseFactory->success([
             'name' => $applicationParams->name,
             'version' => $applicationParams->version,
+            'test_key' => 'test value',
         ]);
     }
 }
